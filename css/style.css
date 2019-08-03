@@ -2,7 +2,7 @@
 body{
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
-	color: #212529;
+	color: #212529; background-color: hsla(0,0%,0%,1.00)
 }
 .header-area.sticky {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
@@ -19,7 +19,7 @@ body{
 #home{
 text-align: center; color: hsla(0,0%,100%,1.00);
 background-image:url("../img/header/Recurso 7@0.5x.png"); background-size: cover; background-repeat: no-repeat;
-padding: 15%; 
+padding: 15% 0%; 
 }
 
 
@@ -143,7 +143,7 @@ color:#fff;
 padding: 7%;
 }
 
-h2{font-size: 35px; letter-spacing: 10px; margin: 0px 0px 20px 0px}
+h2{font-size: 35px; letter-spacing: 10px; margin: 0px 0px 20px 0px; text-align: center!important}
 
 
 
@@ -205,6 +205,7 @@ color:#fff;
 padding:7%;
 }
 
+#sponsors h2{text-align: center}
  .marca{
 padding: 3% 5%;
 }
@@ -216,6 +217,8 @@ background-color:#000;
 color:#fff;
 text-align:center;
 font-size:30px; padding: 5px}
+
+
 
 
 @media (max-width: 435px) 
@@ -234,14 +237,43 @@ font-size:30px; padding: 5px}
 	
 	#live .p-telefono{width: 25%}
 	
+	h2{margin-left: 15px!important }
+	
 	#sponsors .p-telefono1{width: 32%}
 	
+	.btn-nuevo{
+padding: 8px 20px; margin: 28px 0px 30px 0px;
+color: #fff;
+font-size: 10px;
+text-transform: uppercase;
+background-color: transparent;
+border: 2px solid #fff; letter-spacing: 5px
+}
+
+.btn-form{
+padding: 5px 20px;
+color: #000;
+font-size: 17px;
+text-transform: uppercase;
+background-color: #fff;
+border: 2px solid #fff; letter-spacing: 5px
+}
+
+
+.btn-nuevo:hover{
+padding: 8px 20px; margin: 28px 0px 30px 0px;
+color: #000000!important;
+font-size: 10px;
+text-transform: uppercase;
+background-color: #fff;
+border: 2px solid #fff; letter-spacing: 5px; font-weight: 900
+}
 	
 	a{text-align: center}
 	
 	#competencia h2{font-size: 28px}
 	
-	.btn-nuevo{width: 100%; text-align: center; font-size: 12px}
+
 	
 	#suscribete .btn-form{width: 282px}
 	.form-size{width: 80%; height: 50%}
@@ -252,22 +284,88 @@ font-size:30px; padding: 5px}
 	border: 0.5px solid #fff; letter-spacing: 0px;
 	border-radius: 5px;
 	background-color: transparent;
-	padding: 0px 0; margin: 5px 0px; height: 27px; width: 282px
+	padding: 0px 0; margin: 5px 0px; height: 27px; width: 300px
 		
 	}
 	
-	#home h1{margin-top: 80px; font-size: 40px; text-align: center}
+	#home h1{margin: 120px 0px 20px 0px!important; font-size: 32px; text-align: center}
+	#home h4{font-size: 18px}
+	.posicioncuadro{
+	position:absolute;
+	margin-top:-49%;
+	padding:8px 44px!important;
+	width: 120px;
+	}
+	
+	#home{
+text-align: center; color: hsla(0,0%,100%,1.00);
+background-image:url("../img/header/covercel_Mesa de trabajo 1.png"); background-size:cover; background-repeat: no-repeat
+padding: 5%}
+	
+	.gcilogo{width: 350px}	
+	
+	}
+
+
+
+
+@media (max-width: 375px) {
+	
+	.btn-nuevo{
+padding: 8px 20px; margin: 28px 0px 30px 0px;
+color: #fff;
+font-size: 8px;
+text-transform: uppercase;
+background-color: transparent;
+border: 2px solid #fff; letter-spacing: 5px
+}
+
+.btn-form{
+padding: 5px 20px;
+color: #000;
+font-size: 12px;
+text-transform: uppercase;
+background-color: #fff;
+border: 2px solid #fff; letter-spacing: 5px
+}
+
+
+.btn-nuevo:hover{
+padding: 8px 20px; margin: 28px 0px 30px 0px;
+color: #000000!important;
+font-size: 8px;
+text-transform: uppercase;
+background-color: #fff;
+border: 2px solid #fff; letter-spacing: 5px; font-weight: 900
+}
+	
+	#suscribete h2{margin-left: 0px!important}
 	
 	.posicioncuadro{
 	position:absolute;
 	margin-top:-49%;
-	padding:8px 50px;
-	width: 100px;
+	padding:8px 19px!important;
+	width: 80px;
+	}
+	
+		.formsus{
+	color:#fff;
+	border: 0.5px solid #fff; letter-spacing: 0px;
+	border-radius: 5px;
+	background-color: transparent;
+	padding: 0px 0; margin: 1px 0px; height: 20px!important; width: 300px; font-size: 12px; 
+		
 	}
 	
 	
-		}
-
+	
+	h1{font-size: 29px!important; margin: 120px 0px!important; padding: 0px 5px}
+	h4{font-size: 12px}
+	#competencia h2{font-size: 22px}
+	
+} 
+		
+		
 	@media (max-width: 768px){ 
 				.formsus{
 	color:#fff;
