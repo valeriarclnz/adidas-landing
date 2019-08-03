@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color: #212529;
+}
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky .navbar-default{
+	background-color: #884bdf;
+}
+
+#home{
+text-align: center; color: hsla(0,0%,100%,1.00);
+background-image:url("../img/header/Recurso 7@0.5x.png"); background-size: cover; background-repeat: no-repeat;
+padding: 15%; 
+}
+
+
+
+#competencia{
+background-color:#01a850;
+color:#fff; 
+}
+
+#competencia h2{padding-top: 7% }
+
+.img-margin{margin-top: -95px}
+
+
+
+
+p{font-size: 18px; font-weight: 300}
+
+
+#competencia p{
+font-size: 20px;	
+}
+
+.capa_fondo{position: absolute; opacity: 0.07; }
+
+#app .capa_fondo{position: absolute; opacity: 1; z-index: 1; top: 0 }
+
+.section{padding: 50px 0px}
+
+.img-width{width: 460px}
+.img-width-muller{width: 800px}
+.btn-nuevo{
+padding: 8px 20px; margin: 28px 0px 30px 0px;
+color: #fff;
+font-size: 17px;
+text-transform: uppercase;
+background-color: transparent;
+border: 2px solid #fff; letter-spacing: 5px
+}
+
+.btn-form{
+padding: 5px 20px;
+color: #000;
+font-size: 17px;
+text-transform: uppercase;
+background-color: #fff;
+border: 2px solid #fff; letter-spacing: 5px
+}
+
+
+.btn-nuevo:hover{
+padding: 8px 20px; margin: 28px 0px 30px 0px;
+color: #000000!important;
+font-size: 17px;
+text-transform: uppercase;
+background-color: #fff;
+border: 2px solid #fff; letter-spacing: 5px; font-weight: 900
+}
+
+::-webkit-input-placeholder{color: #fff; margin-left: 5px}
+
+#ciudades{
+text-align: center;
+background-color:#5e3a68;
+color:#fff;
+padding: 5%;
+}
+
+
+
+.margen{
+margin-top: 2%;
+}
+
+#equipos{
+background-color:#2d3290;
+text-align: center;
+color:#fff;
+padding: 5%;	
+}
+
+h1{margin: 50px}
+
+#suscribete{
+background-color:#000;
+color:#fff;
+padding: 7%;
+}
+
+.margin{
+margin-top: -6%;
+}
+
+.posicioncuadro{
+	position:absolute;
+	margin-top:-49%;
+	padding:0 30px;
+	width: 500px;
+	}
+	
+#live h2{margin-top: 7%}
+
+	.formsus{
+	
+	color:#fff;
+	border: 1.5px solid #fff; letter-spacing: 0px;
+	border-radius: 5px;
+	background-color: transparent;
+	padding: 5px 0; margin: 10px 0px
+		}
+
+
+	
+
+		
+		
+
+#merch{
+background-color:#5e3a68;
+color:#fff;
+padding: 7%;
+}
+
+h2{font-size: 35px; letter-spacing: 10px; margin: 0px 0px 20px 0px}
+
+
+
+#app{
+background-color:#01a850;
+color:#fff;
+padding: 0%;
+}
+
+header i{color: hsla(0,0%,100%,1.00)}
+
+#app h2{margin: 15% 0% 10% 0%}
+
+.capa_arriba{position: relative; z-index: 2; top: 0}
+ 
+ .imgpos{
+	 position: absolute;
+	 z-index: 9999;
+	 top:0;
+	padding-top: 0px;
+	 }
+
+#live{
+background-color:#000;
+color:#fff;
+text-align:center;
+}
+
+.fg{font-weight: 900}
+.fm{font-weight: 400}
+.ft{font-weight: 200}
+
+
+.tvs{
+padding: 1% 1%;
+}
+
+
+#global{
+background-color:#ee1c25;
+color:#fff;
+}
+#global img{
+	width: 55%;
+	margin: 20px 0px
+}
+
+
+#global i{
+ color: #fff;
+ font-size:15px;	
+}
+
+.rayas{position: absolute}
+
+#sponsors{
+background-color:#2e5094;
+color:#fff;
+padding:7%;
+}
+
+ .marca{
+padding: 3% 5%;
+}
+
+.alineado {align-items: center; justify-content: center; display: flex}
+
+#redbull{
+background-color:#000;
+color:#fff;
+text-align:center;
+font-size:30px; padding: 5px}
+
+
+@media (max-width: 435px) 
+{
+	
+	.nomostrarencelular{display: none}
+	
+	body{text-align: center !important}
+	
+	.p-telefono{width: 25%}
+	
+	#ciudades .floatr{float: right}
+	#ciudades .floatl{float: left}
+	
+	#ciudades .p-telefono{width: 50%}
+	
+	#live .p-telefono{width: 25%}
+	
+	#sponsors .p-telefono1{width: 32%}
+	
+	
+	a{text-align: center}
+	
+	#competencia h2{font-size: 28px}
+	
+	.btn-nuevo{width: 100%; text-align: center; font-size: 12px}
+	
+	#suscribete .btn-form{width: 282px}
+	.form-size{width: 80%; height: 50%}
+	.cr_image{width: 150%}
+
+		.formsus{
+	color:#fff;
+	border: 0.5px solid #fff; letter-spacing: 0px;
+	border-radius: 5px;
+	background-color: transparent;
+	padding: 0px 0; margin: 5px 0px; height: 27px; width: 282px
+		
+	}
+	
+	#home h1{margin-top: 80px; font-size: 40px; text-align: center}
+	
+	.posicioncuadro{
+	position:absolute;
+	margin-top:-49%;
+	padding:8px 50px;
+	width: 100px;
+	}
+	
+	
+		}
+
+	@media (max-width: 768px){ 
+				.formsus{
+	color:#fff;
+	border: 0.5px solid #fff; letter-spacing: 0px;
+	border-radius: 5px;
+	background-color: transparent;
+	padding: 0px 0; margin: 5px 0px; height: 22px; width: 242px
+	
+	}
+		.tablet{display: none}
+		
+		#suscribete .btn-form{width: 242px; padding: 5px}
+		
+			.posicioncuadro{
+	position:absolute;
+	margin-top:-49%;
+	padding:8px 30px;
+	width: 100px;
+	}
+		
+	}
+
+.rb-img{width: 15%; margin: 0px 345px 0px 0px;}
+
+#redbull p{float: left; margin: 12px 0px 0px 340px}
