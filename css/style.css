@@ -29,7 +29,9 @@ background-color:#01a850;
 color:#fff; 
 }
 
-#competencia h2{padding-top: 7% }
+#competencia h2{padding-top: 7%; text-align: left!important }
+#suscribete h2{text-align: left!important}
+#app h2{text-align: left!important}
 
 .img-margin{margin-top: -95px}
 
